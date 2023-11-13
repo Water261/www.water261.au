@@ -376,7 +376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^2.0.0":
+"@sveltejs/adapter-auto@npm:^2.1.1":
   version: 2.1.1
   resolution: "@sveltejs/adapter-auto@npm:2.1.1"
   dependencies:
@@ -387,7 +387,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:^1.20.4":
+"@sveltejs/kit@npm:^1.27.5":
   version: 1.27.5
   resolution: "@sveltejs/kit@npm:1.27.5"
   dependencies:
@@ -444,7 +444,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/typography@npm:^0.5.9":
+"@tailwindcss/typography@npm:^0.5.10":
   version: 0.5.10
   resolution: "@tailwindcss/typography@npm:0.5.10"
   dependencies:
@@ -605,7 +605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.14":
+"autoprefixer@npm:^10.4.16":
   version: 10.4.16
   resolution: "autoprefixer@npm:10.4.16"
   dependencies:
@@ -801,13 +801,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colord@npm:^2.9":
-  version: 2.9.3
-  resolution: "colord@npm:2.9.3"
-  checksum: 9699e956894d8996b28c686afe8988720785f476f59335c80ce852ded76ab3ebe252703aec53d9bef54f6219aea6b960fb3d9a8300058a1d0c0d4026460cd110
-  languageName: node
-  linkType: hard
-
 "commander@npm:^4.0.0":
   version: 4.1.1
   resolution: "commander@npm:4.1.1"
@@ -869,16 +862,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:^3.1.6":
-  version: 3.9.4
-  resolution: "daisyui@npm:3.9.4"
+"culori@npm:^3":
+  version: 3.2.0
+  resolution: "culori@npm:3.2.0"
+  checksum: c6c9189c7c4b5aa8db8697174e77fd86543fac55d85be2fdee613d22c85ed62147099b5011a58e8ccd16e39fcf58085ea28e073a0b93ec3d623c7701cc20e2e9
+  languageName: node
+  linkType: hard
+
+"daisyui@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "daisyui@npm:4.0.1"
   dependencies:
-    colord: "npm:^2.9"
     css-selector-tokenizer: "npm:^0.8"
-    postcss: "npm:^8"
+    culori: "npm:^3"
+    picocolors: "npm:^1"
     postcss-js: "npm:^4"
-    tailwindcss: "npm:^3.1"
-  checksum: 243e1218b453ed0dc6772fd5f8291b86c121d90f4f789d0444605e26aa3aa66f02a6fe8ad5f8315b1dd962b36efcacb21a961c8c2d2a50ee1fb5907fff2d5dff
+  checksum: fad0d9933fbf567e79bba29a303d6d6d81ceafa8b989a7de1a86c7e63717141e0a69d5d3fd402546100179296129bc61811bcbc8a3793a197d96d0aceb8fa0f5
   languageName: node
   linkType: hard
 
@@ -1096,18 +1095,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.5.0":
-  version: 8.10.0
-  resolution: "eslint-config-prettier@npm:8.10.0"
+"eslint-config-prettier@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "eslint-config-prettier@npm:9.0.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: 19f8c497d9bdc111a17a61b25ded97217be3755bbc4714477dfe535ed539dddcaf42ef5cf8bb97908b058260cf89a3d7c565cb0be31096cbcd39f4c2fa5fe43c
+  checksum: bc1f661915845c631824178942e5d02f858fe6d0ea796f0050d63e0f681927b92696e81139dd04714c08c3e7de580fd079c66162e40070155ba79eaee78ab5d0
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte@npm:^2.30.0":
+"eslint-plugin-svelte@npm:^2.35.0":
   version: 2.35.0
   resolution: "eslint-plugin-svelte@npm:2.35.0"
   dependencies:
@@ -1150,7 +1149,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.28.0":
+"eslint@npm:^8.53.0":
   version: 8.53.0
   resolution: "eslint@npm:8.53.0"
   dependencies:
@@ -2273,7 +2272,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picocolors@npm:^1.0.0":
+"picocolors@npm:^1, picocolors@npm:^1.0.0":
   version: 1.0.0
   resolution: "picocolors@npm:1.0.0"
   checksum: 20a5b249e331c14479d94ec6817a182fd7a5680debae82705747b2db7ec50009a5f6648d0621c561b0572703f84dbef0858abcbd5856d3c5511426afcb1961f7
@@ -2417,7 +2416,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8, postcss@npm:^8.4.23, postcss@npm:^8.4.24, postcss@npm:^8.4.27, postcss@npm:^8.4.29, postcss@npm:^8.4.5":
+"postcss@npm:^8.4.23, postcss@npm:^8.4.27, postcss@npm:^8.4.29, postcss@npm:^8.4.31, postcss@npm:^8.4.5":
   version: 8.4.31
   resolution: "postcss@npm:8.4.31"
   dependencies:
@@ -2435,22 +2434,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-svelte@npm:^2.10.1":
-  version: 2.10.1
-  resolution: "prettier-plugin-svelte@npm:2.10.1"
+"prettier-plugin-svelte@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "prettier-plugin-svelte@npm:3.1.0"
   peerDependencies:
-    prettier: ^1.16.4 || ^2.0.0
-    svelte: ^3.2.0 || ^4.0.0-next.0
-  checksum: eb2e4ee49e703013f6b314186fc8de5e0e161c672261ba5e9344f00cde627c8ce08de0b750f42a72fcd6b5d541f83bc09e2891a1c17aede96b39a436d96bfa86
+    prettier: ^3.0.0
+    svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
+  checksum: 64be41b8f0570e8635ad74c7ec18a0d9b3ce655f9dc08a483a2f964a70b47b6fa42293ce405ff6acb98d71648da88a71ffc2c407b437fee9dd12f5d748f09643
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.8.0":
-  version: 2.8.8
-  resolution: "prettier@npm:2.8.8"
+"prettier@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "prettier@npm:3.0.3"
   bin:
-    prettier: bin-prettier.js
-  checksum: 463ea8f9a0946cd5b828d8cf27bd8b567345cf02f56562d5ecde198b91f47a76b7ac9eae0facd247ace70e927143af6135e8cf411986b8cb8478784a4d6d724a
+    prettier: bin/prettier.cjs
+  checksum: f950887bc03c5b970d8c6dd129364acfbbc61e7b46aec5d5ce17f4adf6404e2ef43072c98b51c4786e0eaca949b307d362a773fd47502862d754b5a328fa2b26
   languageName: node
   linkType: hard
 
@@ -2804,7 +2803,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^4.0.5":
+"svelte@npm:^4.2.3":
   version: 4.2.3
   resolution: "svelte@npm:4.2.3"
   dependencies:
@@ -2825,7 +2824,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.1, tailwindcss@npm:^3.3.2":
+"tailwindcss@npm:^3.3.5":
   version: 3.3.5
   resolution: "tailwindcss@npm:3.3.5"
   dependencies:
@@ -3003,7 +3002,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^4.4.2":
+"vite@npm:^4.5.0":
   version: 4.5.0
   resolution: "vite@npm:4.5.0"
   dependencies:
@@ -3110,21 +3109,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "www.water261.au@workspace:."
   dependencies:
-    "@sveltejs/adapter-auto": "npm:^2.0.0"
-    "@sveltejs/kit": "npm:^1.20.4"
-    "@tailwindcss/typography": "npm:^0.5.9"
-    autoprefixer: "npm:^10.4.14"
-    daisyui: "npm:^3.1.6"
-    eslint: "npm:^8.28.0"
-    eslint-config-prettier: "npm:^8.5.0"
-    eslint-plugin-svelte: "npm:^2.30.0"
-    postcss: "npm:^8.4.24"
+    "@sveltejs/adapter-auto": "npm:^2.1.1"
+    "@sveltejs/kit": "npm:^1.27.5"
+    "@tailwindcss/typography": "npm:^0.5.10"
+    autoprefixer: "npm:^10.4.16"
+    daisyui: "npm:^4.0.1"
+    eslint: "npm:^8.53.0"
+    eslint-config-prettier: "npm:^9.0.0"
+    eslint-plugin-svelte: "npm:^2.35.0"
+    postcss: "npm:^8.4.31"
     postcss-load-config: "npm:^4.0.1"
-    prettier: "npm:^2.8.0"
-    prettier-plugin-svelte: "npm:^2.10.1"
-    svelte: "npm:^4.0.5"
-    tailwindcss: "npm:^3.3.2"
-    vite: "npm:^4.4.2"
+    prettier: "npm:^3.0.3"
+    prettier-plugin-svelte: "npm:^3.1.0"
+    svelte: "npm:^4.2.3"
+    tailwindcss: "npm:^3.3.5"
+    vite: "npm:^4.5.0"
   languageName: unknown
   linkType: soft
 
