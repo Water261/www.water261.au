@@ -21,7 +21,7 @@
 	</p>
 	<p>
 		If you ever need to contact me, you can usually find me hanging out in the openSUSE discord
-		server (water261) or the openSUSE Matrix channels (@water261:matrix.org).
+		server (water261) or the openSUSE Matrix channels (@water261:matrix.org). Otherwise come say high on my <a rel="me" href="https://mastodon.social/@water261">Mastodon</a>.
 	</p>
 </section>
 
